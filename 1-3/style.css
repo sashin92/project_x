@@ -1,0 +1,53 @@
+/* HTML문서에서(브라우저에서?) 태그마다 기본적으로 지정되어있는 디자인(서식)을 모두 지우는 CSS파일 */
+@import "reset.css";
+
+h1 {
+  font-size: xx-large;
+  padding: 50px 50px;
+  width: 100%;
+}
+
+h2 {
+  font-size: larger;
+  padding-left: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.thumbnail {
+  float: left;
+  list-style: none;
+  width: 28%;
+  height: auto;
+  margin: 2%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#close-button {
+  padding-left: 200px;
+}
+
+#layer-popup {
+  position: absolute;
+  left: 110px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: aqua;
+  text-align: center;
+}
