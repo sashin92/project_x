@@ -28,7 +28,7 @@ a {
   margin: 2%;
 }
 
-.main-contents__thumbnail-image img {
+.main-contents__thumbnail-image {
   width: 100%;
   display: block;
 }
