@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>2-3</title>
+</head>
+
+<body>
+  <section class="content" video>
+    <video controls autoplay src="" data-id=""></video>
+    <div class="content__details">
+      <h2 class="content__title">비어있음</h2>
+      <p class="content__description">컨텐츠를 선택해주세요.</p>
+    </div>
+  </section>
+
+
+  <aside class="playList">
+    <div class="list">
+      <h2 class="list__title">플레이 리스트</h2>
+      <div class="list__element" data-id="0"
+        data-url="https://cdn.pixabay.com/vimeo/487508532/%EC%97%AC%EC%84%B1%20-%2058142.mp4?width=1280&expiry=1661300066&hash=5703a597afdfbc01399ef3087a9f1cd416db400a"
+        data-title="꽃 풍경" data-description="꽃 풍경 꽃들 식물 분야 정원 자연 원예 꽃잎 꽃의 플로라 꽃 지독한 신선한 봄"></div>
+      <div class="list__element" data-id="1"
+        data-url="https://uploads.panopto.com/2016/03/Inside-Video-Search-Screencap-Handbrake.mp4" data-title="Panopto"
+        data-description="파놉토의 신속한 비디오 검색 및 검색 솔루션을 사용하여 이전보다 빠르게 필요한 정보를 찾고 지식을 공유할 수 있습니다."></div>
+      <div class="list__element" data-id="2"
+        data-url="https://res.cloudinary.com/dtpgi0zck/video/upload/q_auto/vc_vp9/v1/videos/Earth%20101.webm?_s=vp-1.9.1"
+        data-title="지구 101(네셔널지오그래픽)"
+        data-description="Earth is the only planet known to maintain life. Find out the origins of our home planet and some of the key ingredients that help make this blue speck in space a unique global ecosystem.">
+      </div>
+    </div>
+    <div class="list__controller">
+      <form class="form">
+        <input class="input-url" type="text" placeholder="URL">
+        <input class="input-title" type="text" placeholder="제목">
+        <textarea class="input-description" placeholder="상세내용" cols="30" rows="10"></textarea>
+        <button class="list-add" type="submit">+</button>
+      </form>
+      <button class="list-remove">-</button>
+    </div>
+
+  </aside>
+  <script src="./movie.js"></script>
+
+</body>
+
+
+
+</html>

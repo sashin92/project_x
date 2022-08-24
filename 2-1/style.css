@@ -1,0 +1,121 @@
+@import "reset.css";
+
+body {
+  background-color: #f9f9f9;
+}
+
+/* ------------------ */
+
+
+.content {
+  background-color: aliceblue;
+  margin-top: 10vh;
+  margin-left: 10vw;
+  width: 50vw;
+  float: left;
+}
+
+.content video {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.content__details {
+  border: solid;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.content__title {
+  font-size: 40px;
+  line-height: 1.5;
+  max-height: 1em;
+  padding-bottom: 20px;
+}
+
+.content__description {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+
+.list {
+  background-color: aliceblue;
+  margin-top: 10vh;
+  margin-right: 5vw;
+  float: right;
+  border: solid;
+  border-radius: 20px;
+  width: 400px;
+}
+
+.list__title {
+  margin: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+  color: red;
+  font-weight: bold;
+}
+
+.list__element {
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px;
+  border: solid;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+
+  .list {
+    float: left;
+    margin-left: 10vw;
+  }
+
+
+  .content {
+    width: 80vw;
+  }
+}
+
+
+
+
+
+
+.main-content {
+  width: 80%;
+  padding: 10%;
+}
+
+.main-content video {
+  width: 100%;
+}
+
+
+.main-content__title {
+  overflow: hidden;
+  max-height: 1em;
+  font-size: xx-large;
+  padding: 10px;
+  border: solid 1px;
+}
+
+.main-content__detail {
+  overflow: hidden;
+}
+
+.main-content__detail-view-more-less {
+  font-size: smaller;
+  line-height: 2;
+  color: gray;
+}
+
+.main-content__detail--view-less {
+  max-height: 4em;
+}
